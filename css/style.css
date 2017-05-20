@@ -32,11 +32,6 @@ body {
   color: #2A0001;
 }
 
-#contact{
-  background: white;
-  color: #2A0001;
-}
-
 html{
   height: 100%;
 }
@@ -114,6 +109,23 @@ html{
   animation: increase-font;
   animation-duration: 1s;
 }
+
+.copyright{
+  font-size: 18px;
+}
+
+.designer_name, .designer_name:visited{
+  text-decoration: none;
+  color: #767676;
+}
+
+.designer_name:hover, .designer_name:active, .designer_name:focus{
+  text-decoration: none;
+  opacity: 0.6;
+}
+
+/* ALL ANIMATIONS DEFINED BELOW */
+
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes decrease-font {
     from {font-size: 40px;}

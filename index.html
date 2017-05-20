@@ -7,11 +7,12 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
-  <link rel="stylesheet" href="">
 
-    <!-- Style Sheets -->
+    <!-- Custom Style Sheets -->
     <link rel="stylesheet" href="css/style.css">
 
+    <!-- Style Sheet for Sticky Bootstrap Footer -->
+    <link href="css/sticky-footer.css" rel="stylesheet">
   </head>
 
   <body>
@@ -60,7 +61,7 @@
   </section>
 
   <section class="cover" id="contact">
-      <div class="container">
+    <div class="container">
         <div class="row">
           <div class="col-12">
             <h1>Hello. I am the contact page. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto minus optio voluptas totam, iste, praesentium non fugit. Optio illum iure nam, sequi consectetur repellendus architecto possimus, obcaecati aut accusamus praesentium.</h1>
@@ -68,6 +69,20 @@
         </div>
       </div>
   </section>
+
+  <footer class="footer">
+      <div class="container text-muted">
+        <div class="row">
+          <div class="col-6">
+            <span><span class="copyright">&copy;</span> Gowani Pump Supply 2017</span>
+          </div>
+          <div class="col-6 text-right">
+            Designed by <a href="http://atagowani.com" target="_blank" class="designer_name"><strong>Ata Gowani</strong></a>
+          </div>
+        </div>
+        
+      </div>
+  </footer>
 
     <!-- jQuery first, then Tether, then Bootstrap JS. -->
     <script src="bower_components/jquery/dist/jquery.min.js"> </script>
@@ -104,7 +119,6 @@
     console.log($('#main').height() * 0.99);
     //get the value of the end of #main element
     var main_bottom = $('#main').offset().top + $('#main').height() * 0.99;
-
     //get the value of the end of second page -- "#about"
     var second_bottom = $('#about').offset().top + $('#about').height() * 0.99;
 
