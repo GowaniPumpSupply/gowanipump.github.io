@@ -120,6 +120,7 @@
         $('.navbar-brand').removeClass('crimson-font-color');
         $('.navbar-toggler').removeClass('crimson-font-color');
         $('.navbar-toggler').addClass('navbar-toggler-reduce');
+        $('.navbar-toggler').removeClass('navbar-toggler-increase');
       } else if(stop > main_bottom){
         $('.navbar-brand').addClass('past-main-navbar-brand'); //smooth transition from bigger to smaller font
         $('.navbar').addClass('past-main-navbar');
@@ -128,6 +129,7 @@
         $('.navbar-brand').addClass('crimson-font-color');
         $('.navbar-toggler').addClass('crimson-font-color');
         $('.navbar-toggler').addClass('navbar-toggler-reduce');
+        $('.navbar-toggler').removeClass('navbar-toggler-increase');
       } else if (stop > first_quarter) {
         $('.navbar-brand').addClass('past-main-navbar-brand'); //smooth transition from bigger to smaller font
         $('.navbar').addClass('past-main-navbar');
@@ -136,6 +138,7 @@
         $('.navbar-brand').removeClass('crimson-font-color');
         $('.navbar-toggler').removeClass('crimson-font-color');
         $('.navbar-toggler').addClass('navbar-toggler-reduce');
+        $('.navbar-toggler').removeClass('navbar-toggler-increase');
       } else {
         $('.navbar-brand').removeClass('past-main-navbar-brand');
         $('.navbar-brand').addClass('main-navbar-brand'); //smooth transition from smaller to bigger font
@@ -143,6 +146,7 @@
         $('.navbar-brand').removeClass('crimson-font-color');
         $('.navbar-toggler').removeClass('crimson-font-color');
         $('.navbar-toggler').removeClass('navbar-toggler-reduce');
+        $('.navbar-toggler').addClass('navbar-toggler-increase'); //looks weird when website is first opened and scrolled just a bit (animation is performed)
       }
     });
   </script>
