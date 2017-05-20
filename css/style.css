@@ -1,0 +1,147 @@
+/*LOOK AT ALL THE !IMPORTANTS AND MAKE SURE THAT THEY ARE ACTUALLY NEEDED*/
+
+body {
+  position: relative;
+  height: 100%;
+}
+
+.container{
+  padding-top: 100px;
+  height: 100%;
+}
+
+#main{
+  background: url(../imgs/main.jpg);
+  color: white;
+}
+
+.btn-info{
+  background: #74FF11;
+  color: #2A0001 !important;
+  border-color: #74FF11;
+}
+
+.btn-info:hover{
+  background: #64D612;
+  color: #2A0001 !important;
+  border-color: #64D612;
+}
+
+#about{
+  background: white;
+  color: #2A0001;
+}
+
+#contact{
+  background: #2A0001;
+  color: white;
+}
+
+html{
+  height: 100%;
+}
+
+.cover{
+  margin-right: 0;
+  margin-left: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+.row{
+  height: 100%;
+}
+
+.crimson-font-color{
+  color: #2A0001 !important;
+}
+
+.trans{
+  background: transparent;
+  width: 50%;
+}
+
+.navbar-brand{
+  font-size: 40px;
+  color: white;
+}
+
+.btn{
+  padding: 10px 24px !important;
+  font-size: 18px;
+}
+
+.navbar{
+  background: transparent;
+  font-size: 40px;
+}
+
+.navbar-font-size{
+  font-size: 20px;
+}
+
+.navbar-toggler{
+  margin-top: 15px;
+  font-size: 30px;
+  border: none;
+}
+
+.navbar-toggler-reduce{
+  animation: decrease-toggler forwards;
+  animation-duration: 1s;
+}
+
+.past-main-navbar{
+  opacity: 0.5;
+}
+
+.past-main-navbar-brand{
+  /*animation does not work on IE 9 or earlier*/
+  animation: decrease-font forwards;
+  animation-duration: 1s;
+}
+
+.main-navbar-brand{
+  /*animation does not work on IE 9 or earlier*/
+  animation: increase-font;
+  animation-duration: 1s;
+}
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes decrease-font {
+    from {font-size: 40px;}
+    to {font-size: 20px;}
+}
+
+/* Standard syntax */
+@keyframes decrease-font {
+    from {font-size: 40px;}
+    to {font-size: 20px;
+        width: 0%;}
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes increase-font {
+    from {font-size: inherit;}
+    to {font-size: 40px;}
+}
+
+/* Standard syntax */
+@keyframes increase-font {
+    from {font-size: inherit;}
+    to {font-size: 40px;}
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes decrease-toggler {
+    from {font-size: inherit;}
+    to {margin-top: 3px;
+        font-size: 25px;}
+}
+
+/* Standard syntax */
+@keyframes decrease-toggler {
+    from {font-size: inherit;}
+    to {margin-top: 3px;
+        font-size: 25px;}
+}
