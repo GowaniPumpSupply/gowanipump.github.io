@@ -57,11 +57,6 @@ html{
   width: 50%;
 }
 
-.navbar-brand{
-  font-size: 40px;
-  color: white;
-}
-
 .btn{
   padding: 10px 24px !important;
   font-size: 18px;
@@ -69,7 +64,7 @@ html{
 
 .navbar{
   background: transparent;
-  font-size: 40px;
+  /*font-size: 40px;*/
 }
 
 .navbar-font-size{
@@ -106,7 +101,7 @@ html{
 
 .main-navbar-brand{
   /*animation does not work on IE 9 or earlier*/
-  animation: increase-font;
+  animation: increase-font forwards;
   animation-duration: 1s;
 }
 
