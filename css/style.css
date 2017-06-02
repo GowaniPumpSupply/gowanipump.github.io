@@ -1,12 +1,15 @@
 /*LOOK AT ALL THE !IMPORTANTS AND MAKE SURE THAT THEY ARE ACTUALLY NEEDED*/
 
-body {
-  position: relative;
-  height: 100%;
+/*STYLE CONTAINERS*/
+.cover .container{
+  padding-top: 120px; 
 }
 
-.container{
-  padding-top: 100px;
+#about .container{
+  padding-top: 30px;
+}
+
+body, html {
   height: 100%;
 }
 
@@ -14,6 +17,14 @@ body {
   background: url(../imgs/main.jpg);
   color: white;
 }
+
+#about{
+  height: 200%;
+  background: white;
+  color: #2A0001;
+}
+
+/*BUTTON PROPERTIES*/
 
 .btn-info{
   background: #74FF11;
@@ -27,13 +38,9 @@ body {
   border-color: #64D612;
 }
 
-#about{
-  background: white;
-  color: #2A0001;
-}
-
-html{
-  height: 100%;
+.btn{
+  padding: 10px 24px !important;
+  font-size: 18px;
 }
 
 .cover{
@@ -52,23 +59,10 @@ html{
   color: #2A0001 !important;
 }
 
-.trans{
-  background: transparent;
-  width: 50%;
-}
-
-.btn{
-  padding: 10px 24px !important;
-  font-size: 18px;
-}
+/*NAVBAR COMPONENTS*/
 
 .navbar{
   background: transparent;
-  /*font-size: 40px;*/
-}
-
-.navbar-font-size{
-  font-size: 20px;
 }
 
 .navbar-toggler{
@@ -103,10 +97,6 @@ html{
   /*animation does not work on IE 9 or earlier*/
   animation: increase-font forwards;
   animation-duration: 1s;
-}
-
-.copyright{
-  font-size: 18px;
 }
 
 .designer_name, .designer_name:visited{
