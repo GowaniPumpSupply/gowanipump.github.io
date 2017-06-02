@@ -22,43 +22,37 @@ $(document).ready(function(){
 
 // get the value of the top ~25% of the #main element by adding the offset of that element plus 25% of its height, set it as a variable
 var first_quarter = $('#main').offset().top + ($('#main').height() * 0.25);
-console.log($('#main').height());
+
 //get the value of the end of #main element
 var main_bottom = $('#main').offset().top + $('#main').height();
-//get the value of the end of second page -- "#about"
-var second_bottom = $('#about').offset().top + $('#about').height();
 
 // on scroll, 
 $(window).on('scroll',function(){
+  console.log('YOU SCROLLED');
+  var stop = Math.round($(window).scrollTop());
   
-  var stop = $(window).scrollTop();
-
   //Add classes once scrolled past certain pages
-  if(stop > main_bottom){
-    $('.navbar-brand').addClass('past-main-navbar-brand'); //smooth transition from bigger to smaller font
-    $('.navbar').addClass('past-main-navbar');
-    $('.navbar').addClass('navbar-font-size');
-    $('.navbar-brand').removeClass('main-navbar-brand'); 
-    $('.navbar-brand').addClass('crimson-font-color');
-    $('.navbar-toggler').addClass('crimson-font-color');
-    $('.navbar-toggler').addClass('navbar-toggler-reduce');
-    $('.navbar-toggler').removeClass('navbar-toggler-increase');
-  } else if (stop > first_quarter) {
-    $('.navbar-brand').addClass('past-main-navbar-brand'); //smooth transition from bigger to smaller font
-    $('.navbar').addClass('past-main-navbar');
-    $('.navbar').addClass('navbar-font-size');
-    $('.navbar-brand').removeClass('main-navbar-brand'); 
-    $('.navbar-brand').removeClass('crimson-font-color');
-    $('.navbar-toggler').removeClass('crimson-font-color');
-    $('.navbar-toggler').addClass('navbar-toggler-reduce');
-    $('.navbar-toggler').removeClass('navbar-toggler-increase');
-  } else {
-    $('.navbar-brand').removeClass('past-main-navbar-brand');
-    $('.navbar-brand').addClass('main-navbar-brand'); //smooth transition from smaller to bigger font
-    $('.navbar').removeClass('past-main-navbar');
-    $('.navbar-brand').removeClass('crimson-font-color');
-    $('.navbar-toggler').removeClass('crimson-font-color');
-    $('.navbar-toggler').removeClass('navbar-toggler-reduce');
-    $('.navbar-toggler').addClass('navbar-toggler-increase'); //looks weird when website is first opened and scrolled just a bit (animation is performed)
+  if(stop > first_quarter){
+    //console.log('I am inside of main');
+    $('.navbar-brand').css('color','#ffffff');
+    $('.navbar-toggler').css('color', '#ffffff');
+    $('.navbar-brand').velocity({
+      fontSize: '20px',
+      opacity:  '0.5'
+    });
+    if(stop > main_bottom * 0.95){
+      //console.log('I just left main');
+      $('.navbar-brand').css('color','#2A0001');
+      $('.navbar-toggler').css('color', '#2A0001');
+      //console.log("I have passed main.");
+    }
+  } else{
+    //console.log('I AM ALL THE WAY UP');
+    $('.navbar-brand').css('color','#ffffff');
+    $('.navbar-toggler').css('color', '#ffffff');
+    $('.navbar-brand').velocity({
+      fontSize: '30px',
+      opacity:  '1'
+    }, 500);
   }
 });
