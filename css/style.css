@@ -55,6 +55,10 @@ body, html {
   height: 100%;
 }
 
+.navbar-brand{
+  font-size: 30px;
+}
+
 .crimson-font-color{
   color: #2A0001 !important;
 }
@@ -67,7 +71,7 @@ body, html {
 
 .navbar-toggler{
   margin-top: 15px;
-  font-size: 30px;
+  font-size: 25px;
   border: none;
 }
 
