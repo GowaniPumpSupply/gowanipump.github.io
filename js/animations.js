@@ -25,21 +25,28 @@ var first_quarter = $('#main').offset().top + ($('#main').height() * 0.25);
 
 //get the value of the end of #main element
 var main_bottom = $('#main').offset().top + $('#main').height();
-
+var lastScrollTop = 0;
 // on scroll, 
 $(window).on('scroll',function(){
-  console.log('YOU SCROLLED');
   var stop = Math.round($(window).scrollTop());
-  
+  console.log(stop)
+
+  if (stop > lastScrollTop){
+    $('.navbar').addClass('animated');
+    $('.navbar').addClass('fadeOutUp');
+    console.log('SADDDD')
+  } else {
+    $('.navbar').addClass('fadeInDown');
+    $('.navbar').removeClass('fadeOutUp');
+  }
+  lastScrollTop = stop;
+
   //Add classes once scrolled past certain pages
   if(stop > first_quarter){
     //console.log('I am inside of main');
     $('.navbar-brand').css('color','#ffffff');
     $('.navbar-toggler').css('color', '#ffffff');
-    $('.navbar-brand').velocity({
-      fontSize: '20px',
-      opacity:  '0.5'
-    });
+    
     if(stop > main_bottom * 0.95){
       //console.log('I just left main');
       $('.navbar-brand').css('color','#2A0001');
@@ -50,9 +57,6 @@ $(window).on('scroll',function(){
     //console.log('I AM ALL THE WAY UP');
     $('.navbar-brand').css('color','#ffffff');
     $('.navbar-toggler').css('color', '#ffffff');
-    $('.navbar-brand').velocity({
-      fontSize: '30px',
-      opacity:  '1'
-    }, 500);
+ 
   }
 });
