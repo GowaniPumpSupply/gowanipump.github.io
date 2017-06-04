@@ -1,6 +1,4 @@
-/*LOOK AT ALL THE !IMPORTANTS AND MAKE SURE THAT THEY ARE ACTUALLY NEEDED*/
-
-/*STYLE CONTAINERS*/
+/* STYLE CONTAINERS */
 .cover .container{
   padding-top: 120px; 
 }
@@ -24,7 +22,7 @@ body, html {
   color: #2A0001;
 }
 
-/*BUTTON PROPERTIES*/
+/* BUTTON PROPERTIES */
 
 .btn-info{
   background: #74FF11;
@@ -63,7 +61,7 @@ body, html {
   color: #2A0001 !important;
 }
 
-/*NAVBAR COMPONENTS*/
+/* NAVBAR COMPONENTS */
 
 .navbar{
   background: transparent;
@@ -79,7 +77,7 @@ body, html {
   opacity: 0.5;
 }
 
-/*FOOTER ELEMENTS*/
+/* FOOTER ELEMENTS */
 
 .designer_name, .designer_name:visited{
   text-decoration: none;
@@ -90,3 +88,5 @@ body, html {
   text-decoration: none;
   opacity: 0.6;
 }
+
+/* #MAIN ELEMENTS */
