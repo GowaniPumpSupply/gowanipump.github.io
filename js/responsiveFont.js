@@ -13,8 +13,8 @@ $('#about').flowtype({
   maxFont   : 60,
   fontRatio : 40
 }),
-$('.navbar').flowtype({
-  minFont   : 20,
-  maxFont   : 60,
-  fontRatio : 40
+$('#who_are_we').flowtype({
+  minFont   : 30,
+  maxFont   : 80,
+  fontRatio : 10
 });
