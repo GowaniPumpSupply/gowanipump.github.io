@@ -1,7 +1,7 @@
 /* GENERAL STYLING */
 
 .crimson-font-color{
-  color: #2A0001;
+  color: #540002;
 }
 
 /* STYLE CONTAINERS */
@@ -21,20 +21,20 @@ body, html {
 #about{
   height: 200%;
   background: white;
-  color: #2A0001;
+  color: #540002;
 }
 
 /* BUTTON PROPERTIES */
 
 .btn-info{
   background: #74FF11;
-  color: #2A0001 !important;
+  color: #540002 !important;
   border-color: #74FF11;
 }
 
 .btn-info:hover{
   background: #64D612;
-  color: #2A0001 !important;
+  color: #540002 !important;
   border-color: #64D612;
 }
 
@@ -92,4 +92,31 @@ body, html {
 
 .row{
   height: 100%;
+}
+
+#down{
+  animation-delay: 2.5s;
+  position: absolute;
+  bottom: 0;
+  right: 50%;
+  left: 50%;
+  opacity: 0.5;
+  font-size: 50px;
+}
+
+/* CONTACT PAGE */
+
+#call{
+  height: 50%;
+  width: 50%;
+}
+
+#visit{
+  height: 50%;
+  width: 50%;
+}
+
+#email{
+  height: 50%;
+  width: 50%;
 }
