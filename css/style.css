@@ -75,33 +75,11 @@ body, html {
   border: none;
 }
 
-.navbar-toggler-reduce{
-  /*animation does not work on IE 9 or earlier*/
-  animation: decrease-toggler forwards;
-  animation-duration: 1s;
-}
-
-.navbar-toggler-increase{
-  /*animation does not work on IE 9 or earlier*/
-  animation: increase-toggler forwards;
-  animation-duration: 1s;
-}
-
 .past-main-navbar{
   opacity: 0.5;
 }
 
-.past-main-navbar-brand{
-  /*animation does not work on IE 9 or earlier*/
-  animation: decrease-font forwards;
-  animation-duration: 1s;
-}
-
-.main-navbar-brand{
-  /*animation does not work on IE 9 or earlier*/
-  animation: increase-font forwards;
-  animation-duration: 1s;
-}
+/*FOOTER ELEMENTS*/
 
 .designer_name, .designer_name:visited{
   text-decoration: none;
