@@ -15,6 +15,6 @@ $('#about').flowtype({
 }),
 $('#who_are_we').flowtype({
   minFont   : 30,
-  maxFont   : 80,
+  maxFont   : 90,
   fontRatio : 10
 });
