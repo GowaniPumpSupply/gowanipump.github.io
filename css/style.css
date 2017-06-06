@@ -4,6 +4,17 @@
   color: #540002;
 }
 
+.link {
+  color: #540002;
+  opacity: 0.6;
+}
+
+.link:hover, .link:visited, .link:focus, .link:active {
+  text-decoration: none;
+  opacity: 0.8;
+  color: #540002;
+}
+
 /* STYLE CONTAINERS */
 
 .cover .container{
@@ -41,6 +52,8 @@ body, html {
 .btn{
   padding: 10px 24px !important;
   font-size: 18px;
+  margin: 3px 0 0 8px;
+  width: 130px;
 }
 
 /* NAVBAR COMPONENTS */
@@ -95,7 +108,7 @@ body, html {
 }
 
 #down{
-  animation-delay: 2.5s;
+  animation-delay: 1s;
   position: absolute;
   bottom: 0;
   right: 50%;
@@ -104,19 +117,10 @@ body, html {
   font-size: 50px;
 }
 
-/* CONTACT PAGE */
+/* GENERAL STYLING */
 
-#call{
-  height: 50%;
-  width: 50%;
-}
-
-#visit{
-  height: 50%;
-  width: 50%;
-}
-
-#email{
-  height: 50%;
-  width: 50%;
+.coming_soon, .coming_soon:hover, .coming_soon:active, .coming_soon:focus, .coming_soon:visited{
+  background: #74FF11;
+  opacity: 0.8;
+  width: 200px;
 }

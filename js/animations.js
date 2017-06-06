@@ -19,6 +19,12 @@ $(document).ready(function(){
   });
 });
 
+$('.coming_soon').hover(function(){
+  $(this).html("Coming Soon");
+}, function(){
+  $(this).html("Request Service");
+});
+
 
 // get the value of the top ~25% of the #main element by adding the offset of that element plus 25% of its height, set it as a variable
 var first_quarter = $('#main').offset().top + ($('#main').height() * 0.25);
