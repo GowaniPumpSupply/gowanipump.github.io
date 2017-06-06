@@ -15,6 +15,6 @@ Run `bower install` from the Terminal/Command Prompt in the repo's directory.
 
 ## Step 3: Running the server
 
-Must have Node(latest version) installed
+Must have Node(v6.10.0 or later) installed
 
 Run `node server.js`
