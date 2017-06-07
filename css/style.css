@@ -121,7 +121,9 @@ body, html {
 /* GENERAL STYLING */
 
 .coming_soon, .coming_soon:hover, .coming_soon:active, .coming_soon:focus, .coming_soon:visited{
-  background: #74FF11;
-  opacity: 0.8;
+  background: #51AF13;
+  border-color: #51AF13;
+  opacity: 1;
   width: 200px;
+  cursor: not-allowed;
 }
