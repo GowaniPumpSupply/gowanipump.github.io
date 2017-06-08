@@ -107,7 +107,9 @@ body, html {
   height: 100%;
 }
 
-#down{
+#down, #down.hover, #down:active, #down:visited, #down:focus{
+  text-decoration: none;
+  color: #fff;
   animation-delay: 3s;
   animation-iteration-count: 1;
   position: absolute;
