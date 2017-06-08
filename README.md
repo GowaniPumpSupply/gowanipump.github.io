@@ -13,8 +13,14 @@ Must have Bower installed.
 
 Run `bower install` from the Terminal/Command Prompt in the repo's directory.
 
-## Step 3: Running the server
+## Step 3: Get the development dependencies
 
-Must have Node installed
+Must have node and npm installed
 
-Run `node server.js`
+Run `npm install` from the Terminal/Command Prompt in the repo's directory.
+
+## Step 3: Running the server (lite-server)
+
+Run `npm run dev`
+
+The server will automatically refresh everytime a change is made...making your life easier!
