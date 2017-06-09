@@ -124,8 +124,8 @@ body, html {
 /* GENERAL STYLING */
 
 .coming_soon, .coming_soon:hover, .coming_soon:active, .coming_soon:focus, .coming_soon:visited{
-  background: #51AF13;
-  border-color: #51AF13;
+  background: #64D612;
+  border-color: #64D612;
   opacity: 1;
   width: 200px;
   cursor: not-allowed;
