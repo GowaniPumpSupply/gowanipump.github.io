@@ -4,15 +4,15 @@
   color: #540002;
 }
 
-.link {
-  color: #540002;
+.link, .link:visited{
+  color: #666F75;
   opacity: 0.6;
 }
 
-.link:hover, .link:visited, .link:focus, .link:active {
+.link:hover, .link:focus, .link:active {
   text-decoration: none;
-  opacity: 0.8;
-  color: #540002;
+  opacity: 1;
+  color: #636C72;
 }
 
 /* STYLE CONTAINERS */
