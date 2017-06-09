@@ -19,14 +19,14 @@
   padding-bottom: 40px;
 }
 
+.page-head {
+  padding: 50px 0;
+}
+
 /* STYLE CONTAINERS */
 
 .cover .container{
   padding-top: 200px; 
-}
-
-#about .container{
-  padding-top: 30px;
 }
 
 body, html {
@@ -133,10 +133,4 @@ body, html {
   opacity: 1;
   width: 200px;
   cursor: not-allowed;
-}
-
-/* CONTACT PAGE STYLING */
-
-.contact-page-head {
-  padding: 50px 0;
 }
