@@ -23,4 +23,4 @@ Run `npm install` from the Terminal/Command Prompt in the repo's directory.
 
 Run `npm run dev`
 
-The server will automatically refresh everytime a change is made...making your life easier!
+The server will automatically refresh everytime a change is made, making your life easier!
