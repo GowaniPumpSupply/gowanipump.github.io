@@ -134,3 +134,8 @@ body, html {
   width: 200px;
   cursor: not-allowed;
 }
+
+/*HOURS PAGE*/
+.hours-page{
+  margin-top: 35px;
+}
