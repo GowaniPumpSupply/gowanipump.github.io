@@ -15,14 +15,18 @@
   color: #636C72;
 }
 
+.item {
+  padding-bottom: 40px;
+}
+
+.page-head {
+  padding: 50px 0;
+}
+
 /* STYLE CONTAINERS */
 
 .cover .container{
   padding-top: 200px; 
-}
-
-#about .container{
-  padding-top: 30px;
 }
 
 body, html {
@@ -30,7 +34,7 @@ body, html {
 }
 
 #about{
-  margin-bottom: 200px;
+  margin-bottom: 150px;
   height: auto;
   background: white;
   color: #540002;
@@ -131,8 +135,7 @@ body, html {
   cursor: not-allowed;
 }
 
-/* CONTACT PAGE STYLING */
-
-.contact-page-head {
-  padding: 50px 0;
+/*HOURS PAGE*/
+.hours-page{
+  margin-top: 35px;
 }
