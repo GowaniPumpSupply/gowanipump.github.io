@@ -23,12 +23,12 @@ $('#description').flowtype({
   maxFont   : 35,
   fontRatio : 25
 }),
-$('.contact-title').flowtype({
+$('.title').flowtype({
   minFont   : 30,
   maxFont   : 85,
   fontRatio : 10
 }),
-$('.contact-sub-title').flowtype({
+$('.sub-title').flowtype({
   minFont   : 15,
   maxFont   : 35,
   fontRatio : 20
