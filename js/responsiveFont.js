@@ -29,7 +29,7 @@ $('.title').flowtype({
   fontRatio : 10
 }),
 $('.sub-title').flowtype({
-  minFont   : 15,
+  minFont   : 35,
   maxFont   : 35,
   fontRatio : 20
 });
