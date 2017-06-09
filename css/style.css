@@ -30,7 +30,8 @@ body, html {
 }
 
 #about{
-  height: 200%;
+  margin-bottom: 200px;
+  height: auto;
   background: white;
   color: #540002;
 }
