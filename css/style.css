@@ -129,3 +129,9 @@ body, html {
   width: 200px;
   cursor: not-allowed;
 }
+
+/* CONTACT PAGE STYLING */
+
+.contact-page-head {
+  padding: 50px 0;
+}
