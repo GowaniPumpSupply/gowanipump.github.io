@@ -24,12 +24,17 @@ $('#description').flowtype({
   fontRatio : 25
 }),
 $('.title').flowtype({
-  minFont   : 30,
+  minFont   : 25,
   maxFont   : 85,
   fontRatio : 10
 }),
 $('.sub-title').flowtype({
-  minFont   : 35,
+  minFont   : 25,
   maxFont   : 35,
+  fontRatio : 20
+}),
+$('.about-item').flowtype({
+  minFont   : 20,
+  maxFont   : 40,
   fontRatio : 20
 });
