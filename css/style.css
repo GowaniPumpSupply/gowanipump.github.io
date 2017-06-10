@@ -135,7 +135,12 @@ body, html {
   cursor: not-allowed;
 }
 
-/*HOURS PAGE*/
+/* HOURS PAGE */
 .hours-page{
   margin-top: 35px;
+}
+
+/* ABOUT PAGE */
+.about-item{
+  padding-bottom: 5px;
 }
