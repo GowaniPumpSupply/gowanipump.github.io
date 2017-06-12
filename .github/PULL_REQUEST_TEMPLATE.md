@@ -1,6 +1,6 @@
 ## Description
 
-<!--- Describe your changes in detail -->
+<!--- Describe your changes in detail. -->
 
 ## Relevant issues & PRs
 
