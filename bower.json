@@ -17,5 +17,6 @@
   "dependencies": {
     "bootstrap": "v4.0.0-alpha.6",
     "Flowtype.js": "^1.1.0"
-  }
+  },
+  "private": true
 }
