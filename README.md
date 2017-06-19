@@ -21,6 +21,6 @@ Run `npm install` from the Terminal/Command Prompt in the repo's directory.
 
 * Step 3: Running the server (lite-server)
 
-Run `npm run dev`
+Run `npm start`
 
 The server will automatically refresh everytime a change is made, making your life easier!
