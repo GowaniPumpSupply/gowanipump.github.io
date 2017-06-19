@@ -1,9 +1,9 @@
 {
   "name": "gowanipump.github.io",
-  "version": "1.0.0",
+  "version": "v0.0.1",
   "description": "This is the Gowani Pump Supply website available at www.gowanipump.com",
   "main": "server.js",
-  "scripts": {    
+  "scripts": {
     "start": "lite-server"
   },
   "repository": {
@@ -11,7 +11,7 @@
     "url": "git+https://github.com/AtaGowani/gowanipump.github.io.git"
   },
   "author": "Ata Gowani <atagowani@gmail.com>",
-  "license": "ISC",
+  "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/AtaGowani/gowanipump.github.io/issues"
   },
