@@ -1,10 +1,10 @@
 /* GENERAL STYLING */
 
-.crimson-font-color{
+.crimson-font-color {
   color: #540002;
 }
 
-.link, .link:visited{
+.link, .link:visited {
   color: #666F75;
   opacity: 0.6;
 }
@@ -25,7 +25,7 @@
 
 /* STYLE CONTAINERS */
 
-.cover .container{
+.cover .container {
   padding-top: 200px; 
 }
 
@@ -33,7 +33,7 @@ body, html {
   height: 100%;
 }
 
-#about{
+#about {
   margin-bottom: 150px;
   height: auto;
   background: white;
@@ -42,19 +42,19 @@ body, html {
 
 /* BUTTON PROPERTIES */
 
-.btn-info{
+.btn-info {
   background: #74FF11;
   color: #540002 !important;
   border-color: #74FF11;
 }
 
-.btn-info:hover{
+.btn-info:hover {
   background: #64D612;
   color: #540002 !important;
   border-color: #64D612;
 }
 
-.btn{
+.btn {
   padding: 10px 24px !important;
   font-size: 18px;
   margin: 3px 0 0 8px;
@@ -63,35 +63,35 @@ body, html {
 
 /* NAVBAR COMPONENTS */
 
-.navbar{
+.navbar {
   background: transparent;
 }
 
-.navbar-toggler{
+.navbar-toggler {
   margin-top: 15px;
   font-size: 25px;
   border: none;
 }
 
-.navbar-brand{
+.navbar-brand {
   font-size: 30px;
 }
 
 /* FOOTER ELEMENTS */
 
-.designer_name, .designer_name:visited{
+.designer_name, .designer_name:visited {
   text-decoration: none;
   color: #767676;
 }
 
-.designer_name:hover, .designer_name:active, .designer_name:focus{
+.designer_name:hover, .designer_name:active, .designer_name:focus {
   text-decoration: none;
   opacity: 0.6;
 }
 
 /* #MAIN ELEMENTS */
 
-#main{
+#main {
   background: url(../imgs/main.jpg);
   color: white;
 }
@@ -100,7 +100,7 @@ body, html {
   opacity: 0.6;
 }
 
-.cover{
+.cover {
   margin-right: 0;
   margin-left: 0;
   width: 100%;
@@ -108,11 +108,11 @@ body, html {
   text-align: center;
 }
 
-.row{
+.row {
   height: 100%;
 }
 
-#down, #down.hover, #down:active, #down:visited, #down:focus{
+#down, #down.hover, #down:active, #down:visited, #down:focus {
   text-decoration: none;
   color: #fff;
   animation-delay: 3s;
@@ -127,7 +127,7 @@ body, html {
 
 /* GENERAL STYLING */
 
-.coming_soon, .coming_soon:hover, .coming_soon:active, .coming_soon:focus, .coming_soon:visited{
+.coming_soon, .coming_soon:hover, .coming_soon:active, .coming_soon:focus, .coming_soon:visited {
   background: #64D612;
   border-color: #64D612;
   opacity: 1;
@@ -136,11 +136,11 @@ body, html {
 }
 
 /* HOURS PAGE */
-.hours-page{
+.hours-page {
   margin-top: 35px;
 }
 
 /* ABOUT PAGE */
-.about-item{
+.about-item {
   padding-bottom: 5px;
 }
