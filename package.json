@@ -4,7 +4,7 @@
   "description": "This is the Gowani Pump Supply website available at www.gowanipump.com",
   "main": "server.js",
   "scripts": {    
-    "dev": "lite-server"
+    "start": "lite-server"
   },
   "repository": {
     "type": "git",
