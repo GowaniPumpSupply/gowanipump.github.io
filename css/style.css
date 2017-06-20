@@ -16,25 +16,26 @@
 }
 
 .item {
-  padding-bottom: 40px;
+  padding-bottom: 1rem;
 }
 
 .page-head {
-  padding: 50px 0;
+  padding: 3rem 0;
 }
 
 /* STYLE CONTAINERS */
 
 .cover .container {
-  padding-top: 200px; 
+  padding-top: 10rem; 
 }
 
 body, html {
   height: 100%;
+  width: 100%;
 }
 
 #about {
-  margin-bottom: 150px;
+  margin-bottom: 3rem;
   height: auto;
   background: white;
   color: #540002;
@@ -55,10 +56,10 @@ body, html {
 }
 
 .btn {
-  padding: 10px 24px !important;
-  font-size: 18px;
-  margin: 3px 0 0 8px;
-  width: 130px;
+  padding: .7rem .8rem !important;
+  font-size: 1.1rem;
+  margin: .5rem 0 0 .6rem;
+  width: 8rem;
 }
 
 /* NAVBAR COMPONENTS */
@@ -68,13 +69,13 @@ body, html {
 }
 
 .navbar-toggler {
-  margin-top: 15px;
-  font-size: 25px;
+  margin-top: .8rem;
+  font-size: 1.7rem;
   border: none;
 }
 
 .navbar-brand {
-  font-size: 30px;
+  font-size: 2rem;
 }
 
 /* FOOTER ELEMENTS */
@@ -122,7 +123,7 @@ body, html {
   right: 50%;
   left: 50%;
   opacity: 0.5;
-  font-size: 50px;
+  font-size: 3.5rem;
 }
 
 /* GENERAL STYLING */
@@ -131,16 +132,16 @@ body, html {
   background: #64D612;
   border-color: #64D612;
   opacity: 1;
-  width: 200px;
+  width: 12rem;
   cursor: not-allowed;
 }
 
 /* HOURS PAGE */
 .hours-page {
-  margin-top: 35px;
+  margin-top: 3rem;
 }
 
 /* ABOUT PAGE */
 .about-item {
-  padding-bottom: 5px;
+  padding-bottom: 1rem;
 }
