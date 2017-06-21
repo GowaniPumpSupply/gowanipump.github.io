@@ -23,6 +23,26 @@
   padding: 3rem 0;
 }
 
+.title-1 {
+  font-size: calc(1rem + 6vw);
+}
+
+.title-2 {
+  font-size: calc(1rem + 3.4vw);
+}
+
+.title-3 {
+  font-size: calc(.8rem + 1.5vw);
+}
+
+.sub-title {
+  font-size: calc(1rem + 1.5vw);
+}
+
+body {
+  font-size: calc(1rem + .7vw);
+}
+
 /* STYLE CONTAINERS */
 
 .cover .container {
@@ -69,16 +89,20 @@ body, html {
 }
 
 .navbar-toggler {
-  margin-top: .8rem;
+  margin-top: .1rem;
   font-size: 1.7rem;
   border: none;
 }
 
 .navbar-brand {
-  font-size: 2rem;
+  font-size: calc(1rem + 1.5vw);
 }
 
 /* FOOTER ELEMENTS */
+
+footer {
+  font-size: calc(.6rem + .4vw);
+}
 
 .designer_name, .designer_name:visited {
   text-decoration: none;
