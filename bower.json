@@ -1,21 +1,18 @@
 {
   "name": "gowanipump.github.io",
-  "homepage": "https://github.com/AtaGowani/gowanipump.github.io",
+  "description": "This is the Gowani Pump Supply website available at www.gowanipump.com",
+  "main": "index.html",
   "authors": [
     "Ata Gowani <atagowani@gmail.com>"
   ],
-  "description": "Website for Gowani Pump Supply",
-  "main": "index.html",
   "license": "Apache-2.0",
+  "homepage": "https://github.com/AtaGowani/gowanipump.github.io",
+  "private": true,
   "ignore": [
     "**/.*",
     "node_modules",
     "bower_components",
     "test",
     "tests"
-  ],
-  "dependencies": {
-    "bootstrap": "v4.0.0-alpha.6"
-  },
-  "private": true
+  ]
 }
