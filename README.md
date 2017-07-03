@@ -12,13 +12,11 @@ The official website for Gowani Pump Supply available at [gowanipump.com](https:
 
 * Step 2: Get all the dependencies
 
-  Must have Bower installed.
-
-  Run `bower install` in the repo's directory.
-
   Must have Node installed
 
-  Run `npm install` in the repo's directory.
+  Run `npm install` or `npm i` in the repo's directory.
+
+  This will install all the dependencies, including bower dependencies.
 
 * Step 3: Running the server (lite-server)
 
