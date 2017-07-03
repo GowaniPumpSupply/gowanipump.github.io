@@ -221,7 +221,8 @@ footer {
   height: 100%;
 }
 
-#down, #down.hover,
+#down, 
+#down.hover,
 #down:active,
 #down:visited,
 #down:focus {
