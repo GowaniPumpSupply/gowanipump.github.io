@@ -1,0 +1,6 @@
+# Pre 5.0 npm debug logs
+*.log
+
+# Dependencies
+bower_components
+node_modules

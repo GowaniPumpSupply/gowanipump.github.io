@@ -1,0 +1,262 @@
+/**
+* @file src/css/style.css
+* @license Apache-2.0
+* @copyright 2017 Ata Gowani
+*/
+
+/* GENERAL STYLING */
+
+.crimson-font-color {
+  color: #540002;
+}
+
+.link, .link:visited {
+  color: #666F75;
+  opacity: 0.6;
+}
+
+.link:hover,
+.link:focus,
+.link:active {
+  text-decoration: none;
+  opacity: 1;
+  color: #636C72;
+}
+
+.item {
+  padding-bottom: 1rem;
+}
+
+.page-head {
+  padding: 3rem 0;
+}
+
+.title-1 {
+  font-size: 6rem;
+}
+
+@media (max-width: 1200px){
+  .title-1 {
+    font-size: 5rem;
+  }
+}
+
+@media (max-width: 992px){
+  .title-1 {
+    font-size: 4rem;
+  }
+}
+
+@media (max-width: 768px){
+  .title-1 {
+    font-size: 3rem;
+  }
+}
+
+.title-2 {
+  font-size: 3rem;
+}
+
+@media (max-width: 768px){
+  .title-2 {
+    font-size: 2.5rem;
+  }
+}
+
+.title-3 {
+  font-size: 2rem;
+}
+
+@media (max-width: 768px){
+  .title-3 {
+    font-size: 1.5rem;
+  }
+}
+
+.sub-title {
+  font-size: 2rem;
+}
+
+@media (max-width: 992px){
+  .sub-title {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 700px){
+  .sub-title {
+    font-size: 1.2rem;
+  }
+}
+
+body {
+  font-size: 1.8rem;
+}
+
+@media (max-width: 992px){
+  body {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 768px){
+  body {
+    font-size: 1.3rem;
+  }
+}
+
+/* STYLE CONTAINERS */
+
+.cover .container {
+  padding-top: 200px;
+}
+
+body,
+html {
+  height: 100%;
+  width: 100%;
+}
+
+#about {
+  margin-bottom: 3rem;
+  height: auto;
+  background: white;
+  color: #540002;
+}
+
+/* BUTTON PROPERTIES */
+
+.btn-info {
+  background: #74FF11;
+  color: #540002 !important;
+  border-color: #74FF11;
+}
+
+.btn-info:hover {
+  background: #64D612;
+  color: #540002 !important;
+  border-color: #64D612;
+}
+
+.btn {
+  padding: .7rem .8rem !important;
+  font-size: 1.1rem;
+  margin: .5rem 0 0 .6rem;
+  width: 8rem;
+}
+
+/* NAVBAR COMPONENTS */
+
+.navbar {
+  background: transparent;
+}
+
+.navbar-toggler {
+  margin-top: .1rem;
+  font-size: 1.7rem;
+  border: none;
+}
+
+.navbar .navbar-brand {
+  font-size: 2.5rem;
+}
+
+@media (max-width: 1200px){
+  .navbar .navbar-brand {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 768px){
+  .navbar .navbar-brand {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 360px){
+  .navbar .navbar-brand {
+    font-size: 1rem;
+  }
+}
+
+/* FOOTER ELEMENTS */
+
+footer {
+  font-size: calc(.6rem + .4vw);
+}
+
+.designer_name,
+.designer_name:visited {
+  text-decoration: none;
+  color: #767676;
+}
+
+.designer_name:hover,
+.designer_name:active,
+.designer_name:focus {
+  text-decoration: none;
+  opacity: 0.6;
+}
+
+/* #MAIN ELEMENTS */
+
+#main {
+  background: url(../imgs/main.jpg);
+  color: white;
+}
+
+#description {
+  opacity: 0.6;
+}
+
+.cover {
+  margin-right: 0;
+  margin-left: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+.row {
+  height: 100%;
+}
+
+#down, #down.hover,
+#down:active,
+#down:visited,
+#down:focus {
+  text-decoration: none;
+  color: #fff;
+  animation-delay: 3s;
+  animation-iteration-count: 1;
+  position: absolute;
+  bottom: 0;
+  right: 50%;
+  left: 50%;
+  opacity: 0.5;
+  font-size: 3.5rem;
+}
+
+/* GENERAL STYLING */
+
+.coming_soon,
+.coming_soon:hover,
+.coming_soon:active,
+.coming_soon:focus,
+.coming_soon:visited {
+  background: #64D612;
+  border-color: #64D612;
+  opacity: 1;
+  width: 12rem;
+  cursor: not-allowed;
+}
+
+/* HOURS PAGE */
+.hours-page {
+  margin-top: 3rem;
+}
+
+/* ABOUT PAGE */
+.about-item {
+  padding-bottom: 1rem;
+}
