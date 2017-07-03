@@ -1,23 +1,24 @@
 # gowanipump.github.io
-The official website for Gowani Pump Supply available at www.gowanipump.com
+
+The official website for Gowani Pump Supply available at [gowanipump.com](https://gowanipump.com)
 
 # Running it locally
 
-* Step 1: Get the repo on your device
+* Step 1: Get the repo
 
   Clone it!
 
-* Step 2: Get the dependencies
+  Run `git clone https://github.com/GowaniPumpSupply/gowanipump.github.io`
+
+* Step 2: Get all the dependencies
 
   Must have Bower installed.
 
-  Run `bower install` from the Terminal/Command Prompt in the repo's directory.
+  Run `bower install` in the repo's directory.
 
-* Step 3: Get the development dependencies
+  Must have Node installed
 
-  Must have node and npm installed
-
-  Run `npm install` from the Terminal/Command Prompt in the repo's directory.
+  Run `npm install` in the repo's directory.
 
 * Step 3: Running the server (lite-server)
 
