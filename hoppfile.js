@@ -1,5 +1,8 @@
 const hopp = require('hopp')
 
+// bust hopp cache:
+// () => { not a real fn }
+
 exports.lintjs =
   hopp([ 'src/js/*.js' ])
     .eslint({ fix: process.env.NODE_ENV !== 'test' })
