@@ -1,6 +1,6 @@
 const hopp = require('hopp')
 
-exports.js =
+exports.lintjs =
   hopp([ 'src/js/*.js' ])
     .eslint({ fix: process.env.NODE_ENV !== 'test' })
     .eslint.format()
@@ -8,7 +8,12 @@ exports.js =
     .notify()
     .dest()
 
+exports.lint =
+  hopp.all([
+    'lintjs'
+  ])
+
 exports.default =
   hopp.all([
-    'js'
+    'lint'
   ])
