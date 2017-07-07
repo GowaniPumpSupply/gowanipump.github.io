@@ -4,6 +4,8 @@
   "description": "This is the Gowani Pump Supply website available at www.gowanipump.com",
   "main": "server.js",
   "scripts": {
+    "build": "hopp",
+    "test": "hopp lint",
     "start": "lite-server",
     "postinstall": "bower install"
   },
@@ -18,7 +20,18 @@
   },
   "homepage": "https://github.com/AtaGowani/gowanipump.github.io#readme",
   "devDependencies": {
+    "babel-eslint": "^7.2.3",
+    "babel-preset-env": "^1.6.0",
     "bower": "^1.8.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.1.0",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "hopp": "^1.2.6",
+    "hopp-plugin-babel": "^1.2.1",
+    "hopp-plugin-eslint": "^1.2.6",
+    "hopp-plugin-notify": "^1.2.2",
     "lite-server": "^2.3.0"
   }
 }
