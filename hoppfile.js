@@ -8,12 +8,29 @@ exports.lintjs =
     .notify()
     .dest()
 
-exports.lint =
+exports.lint = exports.lintjs
+
+exports.buildjs =
+  hopp([ 'src/js/*.js' ])
+    .dest('dist/js')
+
+exports.buildcss =
+  hopp([ 'src/css/*.css' ])
+    .dest('dist/css')
+
+exports.buildimgs =
+  hopp([ 'src/imgs/*' ])
+    .dest('dist/imgs')
+
+exports.build =
   hopp.all([
-    'lintjs'
+    'buildjs',
+    'buildcss',
+    'buildimgs'
   ])
 
 exports.default =
-  hopp.all([
-    'lint'
+  hopp.steps([
+    'lint',
+    'build'
   ])
