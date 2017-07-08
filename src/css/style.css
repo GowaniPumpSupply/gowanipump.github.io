@@ -233,9 +233,12 @@ footer {
   position: absolute;
   bottom: 0;
   right: 50%;
-  left: 50%;
-  opacity: 0.5;
+  opacity: 1;
   font-size: 3.5rem;
+}
+
+#down > img {
+  height: 3rem;
 }
 
 /* GENERAL STYLING */
