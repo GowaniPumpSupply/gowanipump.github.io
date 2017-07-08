@@ -10,7 +10,7 @@
   },
   "scripts": {
     "start": "lite-server",
-    "postinstall": "bower install",
+    "build": "webpack",
     "test": "standard src/js/*.js"
   },
   "repository": {
@@ -24,8 +24,11 @@
   },
   "homepage": "https://github.com/AtaGowani/gowanipump.github.io#readme",
   "devDependencies": {
-    "bower": "^1.8.0",
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.2.1",
     "lite-server": "^2.3.0",
-    "standard": "^10.0.2"
+    "standard": "^10.0.2",
+    "tether": "^1.4.0",
+    "webpack": "^3.1.0"
   }
 }
