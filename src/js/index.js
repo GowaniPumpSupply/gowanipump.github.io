@@ -27,10 +27,10 @@ window.jQuery(function ($) {
   })
 
   // Get the value of the top ~25% of the #main element by adding the offset of that element plus 25% of its height, set it as a variable
-  var first_quarter = $('#main').offset().top + ($('#main').height() * 0.25)
+  var firstQuarter = $('#main').offset().top + ($('#main').height() * 0.25)
 
   // Get the value of the end of #main element
-  var main_bottom = $('#main').offset().top + $('#main').height()
+  var mainBottom = $('#main').offset().top + $('#main').height()
   var lastScrollTop = 0
 
   // On scroll,
@@ -49,11 +49,11 @@ window.jQuery(function ($) {
     lastScrollTop = stop
 
     // Add classes once scrolled past certain pages
-    if (stop > first_quarter) {
+    if (stop > firstQuarter) {
       $('.navbar-brand').css('color', '#ffffff')
       $('.navbar-toggler').css('color', '#ffffff')
 
-      if (stop > main_bottom * 0.95) {
+      if (stop > mainBottom * 0.95) {
         $('.navbar-brand').css('color', '#2A0001')
         $('.navbar-toggler').css('color', '#2A0001')
         // console.log("I have passed main.")
