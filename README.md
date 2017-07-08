@@ -14,7 +14,7 @@ The official website for Gowani Pump Supply available at [gowanipump.com](https:
 
   Must have Node installed
 
-  Run `npm install` or `npm i` in the repo's directory.
+  Run `npm i` in the repo's directory.
 
 * Step 3: Build with Webpack
 
@@ -22,7 +22,7 @@ The official website for Gowani Pump Supply available at [gowanipump.com](https:
 
   Webpack will watch for changes and update automatically.
 
-* Step 3: Running the server (lite-server)
+* Step 4: Running the server (lite-server)
 
   Run `npm start`
 
