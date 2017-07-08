@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/AtaGowani/gowanipump.github.io#readme",
   "devDependencies": {
+    "animate.css": "^3.5.2",
     "bootstrap": "^4.0.0-alpha.6",
     "jquery": "^3.2.1",
     "lite-server": "^2.3.0",
