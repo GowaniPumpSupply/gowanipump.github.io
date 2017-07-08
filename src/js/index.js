@@ -36,12 +36,10 @@ window.jQuery(function ($) {
   // On scroll,
   $(window).on('scroll', function () {
     var stop = Math.round($(window).scrollTop())
-    console.log(stop)
 
     if (stop > lastScrollTop) {
       $('.navbar').addClass('animated')
       $('.navbar').addClass('fadeOutUp')
-      console.log('SADDDD')
     } else {
       $('.navbar').addClass('fadeInDown')
       $('.navbar').removeClass('fadeOutUp')
