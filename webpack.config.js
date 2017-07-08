@@ -11,6 +11,8 @@ module.exports = {
     path: `${__dirname}/dist/js`
   },
 
+  watch: true,
+
   plugins: [
     new webpack.optimize.UglifyJsPlugin()
   ]
