@@ -1,6 +1,9 @@
-# debug logs
+# Debug logs
 *.log
 
 # Dependencies
 bower_components
 node_modules
+
+# Minified code
+dist
