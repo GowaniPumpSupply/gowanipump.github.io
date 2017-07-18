@@ -221,7 +221,8 @@ footer {
   height: 100%;
 }
 
-#down, #down.hover,
+#down, 
+#down.hover,
 #down:active,
 #down:visited,
 #down:focus {
@@ -231,10 +232,13 @@ footer {
   animation-iteration-count: 1;
   position: absolute;
   bottom: 0;
-  right: 50%;
-  left: 50%;
-  opacity: 0.5;
+  right: 48.5%;
+  opacity: 1;
   font-size: 3.5rem;
+}
+
+#down > img {
+  height: 3rem;
 }
 
 /* GENERAL STYLING */
