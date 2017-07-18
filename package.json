@@ -3,9 +3,15 @@
   "version": "v0.0.1",
   "description": "This is the Gowani Pump Supply website available at www.gowanipump.com",
   "main": "server.js",
+  "standard": {
+    "envs": [
+      "browser"
+    ]
+  },
   "scripts": {
     "start": "lite-server",
-    "postinstall": "bower install"
+    "build": "webpack",
+    "test": "standard src/js/*.js"
   },
   "repository": {
     "type": "git",
@@ -18,7 +24,12 @@
   },
   "homepage": "https://github.com/AtaGowani/gowanipump.github.io#readme",
   "devDependencies": {
-    "bower": "^1.8.0",
-    "lite-server": "^2.3.0"
+    "animate.css": "^3.5.2",
+    "bootstrap": "^4.0.0-alpha.6",
+    "jquery": "^3.2.1",
+    "lite-server": "^2.3.0",
+    "standard": "^10.0.2",
+    "tether": "^1.4.0",
+    "webpack": "^3.1.0"
   }
 }
