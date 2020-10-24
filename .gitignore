@@ -4,6 +4,3 @@
 # Dependencies
 bower_components
 node_modules
-
-# Minified code
-dist
